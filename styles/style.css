@@ -1,0 +1,29 @@
+:root{
+    --letter: #0f0f0f;
+    --fondo1: #ffffff; 
+    --fondo2: #cd9d65; 
+    --fondo3: #000000; 
+}
+#bloque1{
+    background-color: var(--fondo2);
+    height: 271.6px;
+    margin:0px; 
+}
+.header{
+    display:flex; 
+    margin-bottom:20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+}
+.navegacion{
+    margin-left:20px; 
+    flex-direction: column;
+    align-items: flex-end;
+}
+.navegacion a{
+    margin-bottom: 5px;
+}
+.h1{
+    height: 35.19px;
+}
