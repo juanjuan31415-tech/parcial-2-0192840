@@ -5,9 +5,12 @@
     --fondo3: #000000; 
 }
 @font-face{
-    font-family: "Jaro";
-    src:url(assets\fonts\Jaro\Jaro-Regular-VariableFont_opsz.ttf) format(ttf);
+    font-family:"jaro";
+src: url("../assets\fonts\Jaro\Jaro-Regular-VariableFont_opsz.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+
 #bloque1{
     background-color: var(--fondo2);
     height: 271.6px;
@@ -22,8 +25,9 @@
     align-items: center;
     padding: 10px 20px; 
 }
-.header h1{
-    font-family: "Jaro";
+
+h1{
+    font-family:"jaro";
     margin-left: 30px; 
 }
 .navegacion{
