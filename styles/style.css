@@ -6,7 +6,13 @@
 }
 @font-face{
     font-family:"jaro";
-src: url("../assets\fonts\Jaro\Jaro-Regular-VariableFont_opsz.ttf") format("truetype");
+src: url("../assets/fonts/Jaro/Jaro-Regular-VariableFont_opsz.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"staatliches";
+src: url("../assets/fonts/Jaro,Staatliches/Staatliches/Staatliches-Regular.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -29,6 +35,7 @@ src: url("../assets\fonts\Jaro\Jaro-Regular-VariableFont_opsz.ttf") format("true
 h1{
     font-family:"jaro";
     margin-left: 30px; 
+    height: 35.19px;
 }
 .navegacion{
     display: flex;
@@ -39,7 +46,13 @@ h1{
 }
 .navegacion a{
     margin-bottom: 5px;
+    font-family:"jaro"; 
 }
 .h1{
     height: 35.19px;
+}
+h2{
+    font-family: "staatliches";
+    margin-left: 30px;
+    font-size: 42px;
 }
