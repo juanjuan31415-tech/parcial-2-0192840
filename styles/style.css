@@ -31,16 +31,27 @@ main{
 
 }
 
-#bloque1{
+.bloque1{
     background-color: var(--fondo2);
-    height: 271.6px;
-    width:375px;
+}
+
+.navegacion{
+    display:flex;
+    flex-direction: column;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-align: right;
 }
 
 h1{
     font-family:"jaro";
     margin-left: 30px; 
     height: 35.19px;
+    float:left;
+    margin-top: 13.23px;
+    margin-bottom: 77.57px;
 }
 
 img{
@@ -58,7 +69,11 @@ img{
 h2{
     font-family: "staatliches";
     margin-left: 30px;
-    font-size: 42px;
+    margin-right: 30px;
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 60px;
 }
 .main #shop{
     font-family: "jaro";
@@ -66,8 +81,9 @@ h2{
 }
 #texto1{
     font-family: "staatliches";
-    font-size: 60px;
+    font-size: 42px;
     margin-left: 20px;
+    margin-top: 30px;
 }
 .bebidas p{
     margin-left:10px;
@@ -108,7 +124,6 @@ footer{
     margin-bottom: 50px;
     margin-left: 20px;
 }
-
 .btn-shop-now {
     margin-left:30px;
     margin-bottom: 30px;
@@ -122,4 +137,26 @@ footer{
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 300;
+}
+
+.btn-about-us{
+    margin-left:20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border-style: solid; 
+    border-color: var(--letter);
+    background-color: var(--fondo1);
+    margin-left:30px;
+    color: var(--letter);
+    width: 7.425rem;
+    height: 2.388rem;
+    font-family: "jaro";
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 80px;
 }
