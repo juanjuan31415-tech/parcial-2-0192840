@@ -68,8 +68,8 @@ img{
 }
 h2{
     font-family: "staatliches";
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 30px;
     font-size: 32px;
     font-weight: normal;
@@ -95,10 +95,12 @@ p{
     margin-bottom: 30px;
     margin-left:10px; 
 }
+
 .bloque3 div{
     background-color: var(--fondo2);
     font-family: "staatliches";
     font-size: 80px;
+    padding-left: 30px;
 }
 h3{
     font-family:"staatliches"
