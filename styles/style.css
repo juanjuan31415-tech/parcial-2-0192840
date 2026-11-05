@@ -87,6 +87,7 @@ h2{
 }
 .bebidas p{
     margin-left:10px;
+    padding-bottom:50px; 
 }
 p{
     font-family:"staatliches";
@@ -96,11 +97,20 @@ p{
     margin-left:10px; 
 }
 
-.bloque3 div{
+.bloque3{
     background-color: var(--fondo2);
     font-family: "staatliches";
     font-size: 80px;
     padding-left: 30px;
+}
+
+.bloque3 span{
+    background-color: var(--fondo2);
+    font-family: "staatliches";
+    font-size: 80px;
+    justify-content: left;
+    padding-left: 30px;
+    color: var(--letter2);
 }
 h3{
     font-family:"staatliches"
@@ -112,6 +122,14 @@ footer{
 }
 .bloque2{
     margin-bottom: 10px;
+    width: 375px;
+    height: 800px;
+    background-image: url("../assets/imgs/coctel.jpg");
+}
+.bloque2 img{
+    padding-left:130px;
+    padding-right: 130px;
+    padding-top: 80px;
 }
 .bloque4{
     margin-top: 23px;
@@ -159,6 +177,35 @@ footer{
     font-weight: 300;
 }
 
+h4{
+    padding-top:50px;
+}
+
 h5{
     font-size: 80px;
+    padding-top: 100px;
+}
+#textogrande{
+    font-size: 100px;
+    padding-top: 456px;
+    font-family: "staatliches";
+    color: var(--fondo1);
+    height: 160px;
+    width: 80%;
+    max-width: 100%;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 0.8;
+}
+#textopeque{
+    margin-bottom: 80px;
+    font-size: 22px;
+    padding-bottom: 80px;
+    font-family: "staatliches";
+    width: 60%;
+    margin-inline: auto;
+    text-align: center;
+    color: var(--fondo1);
+    text-transform: uppercase;
+    line-height: 1.6;
 }
